@@ -1,0 +1,19 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @*ViewCOmponenti çağırıyoruz...*@
+    @await Component.InvokeAsync("Kategori")
+    <br />
+    @await Component.InvokeAsync("Ogrenci")
+</body>
+</html>
